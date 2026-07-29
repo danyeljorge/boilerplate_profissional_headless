@@ -1,7 +1,7 @@
 import {getPosts} from "../lib/wordpress";
 
 export default async function Home() {
-  const response = await getPosts()
+  const data = await getPosts()
 
  
 
@@ -10,7 +10,7 @@ export default async function Home() {
     <h1> Projeto Headless </h1>
 
     <ul> 
-      {response.data.posts.nodes.map((post: any) => (
+      {data.posts.nodes.map((post: any) => (
       <li key= {post.id}>
         
         <h2> {post.title}</h2>
