@@ -22,7 +22,11 @@ export async function getPosts() {
         if (!response.ok) {
             throw new Error(`Erro ao buscar posts.`);
 
-            return response.json();
         }
+
+        const result = await response.json();
+
+            return result.data;
+        
 
 }
