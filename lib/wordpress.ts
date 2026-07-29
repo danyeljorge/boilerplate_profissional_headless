@@ -13,7 +13,7 @@ export async function getPosts() {
             query: GET_POSTS,
         }),
         next: {
-            revalidate: 20,
+            revalidate: 0,
         },
 
 
