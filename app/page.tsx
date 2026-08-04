@@ -1,4 +1,5 @@
 import {getPosts} from "../lib/wordpress";
+import Header from "../components/layout/Header/Header";
 
 export default async function Home() {
   const data = await getPosts()
@@ -6,7 +7,9 @@ export default async function Home() {
  
 
   return (
+    
     <main>
+      <Header/>
     <h1> Projeto Headless </h1>
 
     <ul> 

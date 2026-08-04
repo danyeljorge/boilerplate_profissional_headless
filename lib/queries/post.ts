@@ -1,6 +1,6 @@
-import { gql } from "graphql-request";
 
-export const GET_POSTS = gql`
+
+export const GET_POSTS = `
 
     query {
     posts (first: 10) {
@@ -12,3 +12,4 @@ export const GET_POSTS = gql`
     }
     }
 `;
+

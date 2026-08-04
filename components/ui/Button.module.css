@@ -1,0 +1,36 @@
+.button{
+    position: relative;
+    z-index: 1;
+    background-color: #146c60;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;   
+    height: 40px;
+    border-radius: 80px 50px 50px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    inset:0;
+
+    background-color: #fd9c27;
+    border-radius: inherit;
+
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+
+
+.button:hover {
+    transform: translate(0px, 0px);
+}
+
+.button:hover::before {
+    transform: translate(-2px, -4px);
+}

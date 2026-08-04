@@ -1,0 +1,71 @@
+.topBar {
+    
+    display: flex;
+    width: 100%;
+}
+
+
+.socialMidia{
+    width: 30%;
+    height: 40px;
+    background-color: #fd9c27;
+    gap: 10px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    justify-content: right;
+}
+
+.phone {
+
+    width: 70%;
+    height: 40px;
+    background-color: #146c60;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.textoTopBar {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header {
+    background-color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.menuHeader {
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+    justify-content: right;
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.menu {
+    width: 75%;
+}
+
+.botaoZap {
+    width: 15%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
